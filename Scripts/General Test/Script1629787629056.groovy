@@ -31,3 +31,5 @@ WebUI.click(findTestObject('Page_Log In2/input_Remember Me_wp-submit'))
 
 WebUI.verifyTextNotPresent('Success', false)
 
+WebUI.closeBrowser()
+
