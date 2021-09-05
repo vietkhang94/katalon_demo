@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyAccountCorrect</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f497bda1-5862-404b-9c5c-f11262792e05</testCaseGuid>
+   <variable>
+      <defaultValue>'ks2041'</defaultValue>
+      <description></description>
+      <id>3bc7c5a6-a636-4f98-b11f-15bfe1379733</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ks2041'</defaultValue>
+      <description></description>
+      <id>b37fca6e-5332-48ae-b184-8fd257285c20</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
