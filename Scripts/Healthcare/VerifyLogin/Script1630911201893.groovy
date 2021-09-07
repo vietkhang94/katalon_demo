@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://khangoi.com/blog/wp-login.php?redirect_to=https%3A%2F%2Fkhangoi.com%2Fblog%2Fwp-admin%2F&reauth=1')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_Log In2/input_Username or Email Address_log'), 'ks2042')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setEncryptedText(findTestObject('Page_Log In2/input_Password_pwd'), 'P1vY6fhEy+4=')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.check(findTestObject('Page_Log In2/input_Password_rememberme'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Page_Log In2/input_Remember Me_wp-submit'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.verifyTextPresent('Success', false)
+WebUI.verifyTextNotPresent('Login failed! Please ensure the username and password are valid', false)
 
 WebUI.closeBrowser()
 
