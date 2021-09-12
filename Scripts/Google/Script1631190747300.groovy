@@ -21,3 +21,5 @@ import org.openqa.selenium.Keys as Keys
 //RunConfiguration.setWebDriverPreferencesProperty('args', ['window-size=100,100'])
 WebUI.openBrowser('')
 
+WebUI.closeBrowser()
+
