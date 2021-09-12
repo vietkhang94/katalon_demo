@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://khangoi.com/blog/wp-admin')
 
-WebUI.setText(findTestObject('Page_Log In/input_Username or Email Address_log'), username)
+WebUI.setText(findTestObject('Page_Account/input_Username or Email Address_log'), username)
 
-WebUI.setText(findTestObject('Page_Log In/input_Password_pwd'), password)
+WebUI.setText(findTestObject('Page_Account/input_Password_pwd'), password)
 
-WebUI.click(findTestObject('Page_Log In/input_Remember Me_wp-submit'))
+WebUI.click(findTestObject('Page_Account/input_Remember Me_wp-submit'))
 
 WebUI.verifyTextNotPresent('ERROR', false)
 

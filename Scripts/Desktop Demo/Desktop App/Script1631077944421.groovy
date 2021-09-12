@@ -14,19 +14,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import groovy.ui.view.WindowsDefaults as WindowsDefaults
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://khangoi.com/blog/wp-login.php?redirect_to=https%3A%2F%2Fkhangoi.com%2Fblog%2Fwp-admin%2F&reauth=1')
+Windows.startApplication('C:\\Program Files (x86)\\ScreenToGif')
 
-WebUI.click(findTestObject('Page_Log In/a_Lost your password'))
+Windows.click(findWindowsObject('Editor'))
 
-WebUI.setText(findTestObject('Page_Lost Password/input_Username or Email Address_user_login'), 
-    'hello@khangoi.com')
-
-WebUI.click(findTestObject('Page_Lost Password/input_Username or Email Address_wp-submit'))
-
-WebUI.click(findTestObject('Page_Lost Password/div_Error There is no account with that use_7ffa90'))
-
-WebUI.verifyTextPresent('Error: There is no account with that username or email address.', false)
+Windows.clearText(findWindowsObject(null))
 

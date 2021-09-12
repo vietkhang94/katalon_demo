@@ -17,18 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Account/VerifyAccountCorrect'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('Page_Profile/input_First Name_first_name'), 
-    'DANG')
+WebUI.navigateToUrl('https://khangoi.com/blog/wp-login.php?redirect_to=https%3A%2F%2Fkhangoi.com%2Fblog%2Fwp-admin%2F&reauth=1')
 
-WebUI.setText(findTestObject('Page_Profile/input_Last Name_last_name'), 
-    'Khang')
+WebUI.click(findTestObject('Page_Account/a_Lost your password'))
 
-WebUI.setText(findTestObject('Page_Profile/textarea_Biographical Info_description'), 
-    'Hello World')
+WebUI.setText(findTestObject('Page_Lost Password/input_Username or Email Address_user_login'), 'hello@khangoi.com')
 
-WebUI.click(findTestObject('Page_Profile/input_Revoke all application passwords_submit'))
+WebUI.click(findTestObject('Page_Lost Password/input_Username or Email Address_wp-submit'))
 
-WebUI.verifyTextPresent('Profile updated.', false)
+WebUI.click(findTestObject('Page_Lost Password/div_Error There is no account with that use_7ffa90'))
+
+WebUI.verifyTextPresent('Error: There is no account with that username or email address.', false)
 

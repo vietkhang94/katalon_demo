@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyProfileUpdated</name>
+   <name>VerifyProfileUpdated (CallTC)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d8c23f79-a32d-4450-b094-d2d0f2b30622</testCaseGuid>
+   <testCaseGuid>4310b7f9-7189-4f06-b65b-b700577a60dd</testCaseGuid>
 </TestCaseEntity>

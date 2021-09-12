@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://khangoi.com/blog/wp-admin')
+WebUI.navigateToUrl('https://khangoi.com/blog/wp-login.php?redirect_to=https%3A%2F%2Fkhangoi.com%2Fblog%2Fwp-admin%2F&reauth=1')
 
-WebUI.setText(findTestObject('Page_Account/input_Username or Email Address_log'), 
-    'ks2041')
+WebUI.setText(findTestObject('Page_Log In2/input_Username or Email Address_log'), 'ks2041')
 
-WebUI.setEncryptedText(findTestObject('Page_Account/input_Password_pwd'), 
-    'P1vY6fhEy+4=')
+WebUI.setEncryptedText(findTestObject('Page_Log In2/input_Password_pwd'), 'P1vY6fhEy+4=')
 
-WebUI.click(findTestObject('Page_Account/input_Remember Me_wp-submit'))
+WebUI.check(findTestObject('Page_Log In2/input_Password_rememberme'))
 
-WebUI.verifyTextNotPresent('Error', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Log In2/input_Remember Me_wp-submit'))
+
+WebUI.verifyTextNotPresent('ERROR', false)
 
 WebUI.closeBrowser()
 

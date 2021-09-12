@@ -21,15 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://khangoi.com/blog/wp-admin')
 
-WebUI.setText(findTestObject('Page_Account/input_Username or Email Address_log'), 
-    'ks2041')
+WebUI.setText(findTestObject('Page_Account/input_Username or Email Address_log'), 'ks2041')
 
-WebUI.setEncryptedText(findTestObject('Page_Account/input_Password_pwd'), 
-    'P1vY6fhEy+4=')
+WebUI.setText(findTestObject('Page_Account/input_Password_pwd'), 'ks2041')
 
 WebUI.click(findTestObject('Page_Account/input_Remember Me_wp-submit'))
 
-WebUI.verifyTextNotPresent('Error', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Profile/input_First Name_first_name'), 'DANG')
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Page_Profile/input_Last Name_last_name'), 'Khang')
+
+WebUI.setText(findTestObject('Page_Profile/textarea_Biographical Info_description'), 'Hello World')
+
+WebUI.click(findTestObject('Page_Profile/input_Revoke all application passwords_submit'))
+
+WebUI.verifyTextPresent('Profile updated.', false)
 

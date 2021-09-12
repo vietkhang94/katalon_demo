@@ -17,19 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+//RunConfiguration.setWebDriverPreferencesProperty('args', ['window-size=100,100'])
 WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://khangoi.com/blog/wp-admin')
-
-WebUI.setText(findTestObject('Page_Account/input_Username or Email Address_log'), 
-    'ks2041')
-
-WebUI.setEncryptedText(findTestObject('Page_Account/input_Password_pwd'), 
-    'P1vY6fhEy+4=')
-
-WebUI.click(findTestObject('Page_Account/input_Remember Me_wp-submit'))
-
-WebUI.verifyTextNotPresent('Error', false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
 

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Jira_Demo</name>
+   <name>New Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>c15c895f-2f8b-4b5b-9b4d-8b5bfd107777</testSuiteGuid>
+   <testSuiteGuid>6a20d8d1-f779-4847-9014-5cf9c45ba759</testSuiteGuid>
    <testCaseLink>
-      <guid>0f10ea52-5692-4137-9908-8532e11de055</guid>
+      <guid>3ca045c2-548b-424f-8246-8720d1406bf0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/General Test</testCaseId>
+      <testCaseId>Test Cases/Google</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

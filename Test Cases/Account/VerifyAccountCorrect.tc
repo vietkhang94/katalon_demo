@@ -6,16 +6,16 @@
    <comment></comment>
    <testCaseGuid>f497bda1-5862-404b-9c5c-f11262792e05</testCaseGuid>
    <variable>
-      <defaultValue>'ks2041'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>3bc7c5a6-a636-4f98-b11f-15bfe1379733</id>
+      <id>678408fa-e520-4bb2-ac9b-f4f830abc1d4</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'ks2041'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>b37fca6e-5332-48ae-b184-8fd257285c20</id>
+      <id>b15a0445-4e7e-4ca4-9264-cd1afc48db9f</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

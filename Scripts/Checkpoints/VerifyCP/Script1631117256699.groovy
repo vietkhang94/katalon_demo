@@ -17,19 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://khangoi.com/blog/wp-login.php?redirect_to=https%3A%2F%2Fkhangoi.com%2Fblog%2Fwp-admin%2F&reauth=1')
-
-WebUI.setText(findTestObject('Page_Log In2/input_Username or Email Address_log'), 'ks2042')
-
-WebUI.setEncryptedText(findTestObject('Page_Log In2/input_Password_pwd'), 'P1vY6fhEy+4=')
-
-WebUI.check(findTestObject('Page_Log In2/input_Password_rememberme'))
-
-WebUI.click(findTestObject('Page_Log In2/input_Remember Me_wp-submit'))
-
-WebUI.verifyTextPresent('Success', false)
-
-WebUI.closeBrowser()
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoint_Demo'), true)
 

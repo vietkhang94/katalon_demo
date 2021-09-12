@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyProfileUpdated</name>
+   <name>Google</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d8c23f79-a32d-4450-b094-d2d0f2b30622</testCaseGuid>
+   <testCaseGuid>9874d9a9-bc6b-44a0-9761-806187d6c5ba</testCaseGuid>
 </TestCaseEntity>

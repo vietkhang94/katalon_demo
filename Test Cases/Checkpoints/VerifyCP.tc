@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyProfileUpdated</name>
+   <name>VerifyCP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d8c23f79-a32d-4450-b094-d2d0f2b30622</testCaseGuid>
+   <testCaseGuid>c6ae5256-1a14-4831-a912-c2b5bb8ff4b3</testCaseGuid>
 </TestCaseEntity>

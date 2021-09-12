@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyProfileUpdated</name>
+   <name>General Test</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d8c23f79-a32d-4450-b094-d2d0f2b30622</testCaseGuid>
+   <testCaseGuid>0d1d08a0-d13a-4b18-8924-a70aa3d2f240</testCaseGuid>
 </TestCaseEntity>
