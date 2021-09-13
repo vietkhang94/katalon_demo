@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cpqtest-autotestuinewux.endeavorcpq.com/home/login')
+WebUI.navigateToUrl('https://cpqtest-autotestuinewux.endeavorcpq.com')
 
 WebUI.setText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_UserName'), 'New_Member1')
 
