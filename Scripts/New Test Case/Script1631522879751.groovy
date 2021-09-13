@@ -21,11 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cpqtest-autotestuinewux.endeavorcpq.com/home/')
 
-WebUI.click(findTestObject('Page_VENDAVO iCPQ AutoTest New UX - Login/button_btn btn-lg btn-primary btn-block'))
+WebUI.click(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Welcome/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_UserName'), 'New_Member1')
+WebUI.setText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_User name_UserName'), 'New_member1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_Password'), 'lyv/qtWr98w=')
-
-WebUI.click(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/button_btn btn-lg btn-primary btn-block'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_Password_Password'), 
+    'aeHFOx8jV/A=')
 

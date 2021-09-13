@@ -11,10 +11,20 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.col-sm-6.col-md-4 > a[name=&quot;Login&quot;]</value>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'Login' and @href = 'https://cpqtest-autotestuinewux.endeavorcpq.com/home/login' and (text() = '
+                                    
+                                Login
+                            ' or . = '
+                                    
+                                Login
+                            ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,20 +32,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>h1 btn btn-info btn-lg btn-block ellipse</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>https://cpqtest-autotestuinewux.endeavorcpq.com/home/login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,9 +43,23 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h1 btn btn-info btn-lg btn-block ellipse</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
       <value>GuidedSelling.ShowStatus(this, false);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://cpqtest-autotestuinewux.endeavorcpq.com/home/login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +79,7 @@
       <value>id(&quot;control-content&quot;)/div[@class=&quot;col-sm-6 col-md-4&quot;]/a[@class=&quot;h1 btn btn-info btn-lg btn-block ellipse&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

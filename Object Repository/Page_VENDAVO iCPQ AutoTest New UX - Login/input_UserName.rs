@@ -4,9 +4,22 @@
    <name>input_UserName</name>
    <tag></tag>
    <elementGuidId>862a622c-1852-43ec-b646-b3505824bf49</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'UserName' and @id = 'loginName' and @type = 'text' and @data-fv-notempty-message = 'You must provide a Username.']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
          <value></value>
       </entry>
    </selectorCollection>
@@ -48,7 +61,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -69,7 +82,7 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-fv-notempty-message</name>
       <type>Main</type>
