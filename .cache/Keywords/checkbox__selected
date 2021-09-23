@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "96078559DACAB41761B0B658D9788BC5",
+  "keywordClasses": [
+    {
+      "name": "checkbox.selected",
+      "keywordMethods": [
+        {
+          "name": "Selected",
+          "parameters": [
+            {
+              "name": "ToogleState",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "io.appium.java_client.windows.WindowsElement",
+                "unresolvedClassName": "WindowsElement",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

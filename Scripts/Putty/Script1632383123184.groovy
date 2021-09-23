@@ -16,12 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import io.appium.java_client.windows.WindowsDriver
+import io.appium.java_client.windows.WindowsElement
 
-//import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-//RunConfiguration.setWebDriverPreferencesProperty('args', ['window-size=100,100'])
-WebUI.openBrowser('')
+Windows.startApplicationWithTitle('C:\\Program Files\\PuTTY\\putty.exe', 'Putty')
 
-WebUI.navigateToUrl('https://google.com')
+Windows.click(findWindowsObject('Object Repository/TreeItem'))
 
-WebUI.closeBrowser()
+Windows.click(findWindowsObject('Object Repository/CheckBox'))
+
+WindowsElement element= Windows.driver.findElementsByName('Auto wrap mode initially on')
+
+CustomKeywords.'checkbox.selected.Selected'(element)
+
+Windows.closeApplication()
 
