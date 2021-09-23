@@ -19,13 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://khangoi.com/blog/wp-admin')
+WebUI.navigateToUrl('https://khangoi.com/blog/wp-login.php?redirect_to=https%3A%2F%2Fkhangoi.com%2Fblog%2Fwp-admin%2F&reauth=1')
 
-WebUI.setText(findTestObject('Page_Account/input_Username or Email Address_log'), username)
+WebUI.click(findTestObject('Page_Account/a_Lost your password'))
 
-WebUI.setText(findTestObject('Page_Account/input_Password_pwd'), password)
+WebUI.setText(findTestObject('Page_Lost Password/input_Username or Email Address_user_login'), 'hello@khangoi.com')
 
-WebUI.click(findTestObject('Page_Account/input_Remember Me_wp-submit'))
+WebUI.click(findTestObject('Page_Lost Password/input_Username or Email Address_wp-submit'))
 
-WebUI.verifyTextNotPresent('ERROR', false)
+WebUI.click(findTestObject('Page_Lost Password/div_Error There is no account with that use_7ffa90'))
+
+WebUI.verifyTextNotPresent('Error: There is no account with that username or email address.', false)
 

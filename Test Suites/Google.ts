@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>ChangeURL_5596</name>
+   <name>Google</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,11 +10,11 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>f3d2ddbc-e47c-4527-95aa-5b77aa991c67</testSuiteGuid>
+   <testSuiteGuid>6a20d8d1-f779-4847-9014-5cf9c45ba759</testSuiteGuid>
    <testCaseLink>
-      <guid>9614536e-e949-4942-b4f3-e934731f09d5</guid>
+      <guid>3ca045c2-548b-424f-8246-8720d1406bf0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ChangeURL_5596</testCaseId>
+      <testCaseId>Test Cases/Google</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

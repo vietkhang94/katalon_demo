@@ -15,7 +15,7 @@
       <guid>a63797c2-90d9-4daa-8a33-1a56b7d93a63</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Account/VerifyAccountCorrect</testCaseId>
+      <testCaseId>Test Cases/Account/TC2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>198112e1-00ce-4098-801e-8f38e21083a8</id>

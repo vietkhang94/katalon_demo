@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cpqtest-autotestuinewux.endeavorcpq.com/home/')
+WebUI.navigateToUrl('https://khangoi.com/blog/wp-admin')
 
-WebUI.click(findTestObject('Page_VENDAVO iCPQ AutoTest New UX - Login/button_btn btn-lg btn-primary btn-block'))
+WebUI.setText(findTestObject('Page_Account/input_Username or Email Address_log'), 'ks2041')
 
-WebUI.setText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_UserName'), 'New_Member1')
+WebUI.setText(findTestObject('Page_Account/input_Password_pwd'), 'ks2041')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_Password'), 'lyv/qtWr98w=')
+WebUI.click(findTestObject('Page_Account/input_Remember Me_wp-submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/button_btn btn-lg btn-primary btn-block'))
+WebUI.verifyTextPresent('ERROR', false)
 
