@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
+
+
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cpqtest-autotestuinewux.endeavorcpq.com/home')
