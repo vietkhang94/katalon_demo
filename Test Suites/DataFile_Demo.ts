@@ -11,31 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>08e5e69a-a238-42f4-8aec-4c6975de713a</testSuiteGuid>
-   <testCaseLink>
-      <guid>a63797c2-90d9-4daa-8a33-1a56b7d93a63</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Account/TC2</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>198112e1-00ce-4098-801e-8f38e21083a8</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Excel File</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>198112e1-00ce-4098-801e-8f38e21083a8</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>678408fa-e520-4bb2-ac9b-f4f830abc1d4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>198112e1-00ce-4098-801e-8f38e21083a8</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>b15a0445-4e7e-4ca4-9264-cd1afc48db9f</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>

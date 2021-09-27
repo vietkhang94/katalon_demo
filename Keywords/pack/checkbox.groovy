@@ -1,4 +1,4 @@
-package checkbox
+package pack
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -22,7 +22,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import io.appium.java_client.windows.WindowsElement
 import internal.GlobalVariable
 
-public class selected {
+public class checkbox {
 	@Keyword
 	public void Selected(WindowsElement ToogleState){
 		def originalState = ToogleState.Selected

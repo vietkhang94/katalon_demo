@@ -11,4 +11,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>b7332cd9-e310-444a-af61-ed15484e9e67</testSuiteGuid>
+   <testCaseLink>
+      <guid>a18517d8-bcfa-4943-a1bf-5dce226c1d6d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/cpqtest</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

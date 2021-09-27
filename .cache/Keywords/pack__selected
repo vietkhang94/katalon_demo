@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "96078559DACAB41761B0B658D9788BC5",
+  "keywordFileContentHash": "A421F3DC3A0466679293BD8946CFF9C7",
   "keywordClasses": [
     {
-      "name": "checkbox.selected",
+      "name": "pack.selected",
       "keywordMethods": [
         {
           "name": "Selected",

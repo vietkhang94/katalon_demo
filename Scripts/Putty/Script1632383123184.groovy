@@ -16,18 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import io.appium.java_client.windows.WindowsDriver
-import io.appium.java_client.windows.WindowsElement
+import io.appium.java_client.windows.WindowsDriver as WindowsDriver
+import io.appium.java_client.windows.WindowsElement as WindowsElement
+import org.openqa.selenium.WebElement as WebElement
 
 Windows.startApplicationWithTitle('C:\\Program Files\\PuTTY\\putty.exe', 'Putty')
 
 Windows.click(findWindowsObject('Object Repository/TreeItem'))
 
-Windows.click(findWindowsObject('Object Repository/CheckBox'))
+Windows.click(findWindowsObject('Object Repository/CheckBox')) //now we click the checkbox to uncheck it
 
-WindowsElement element= Windows.driver.findElementsByName('Auto wrap mode initially on')
+WebElement we = Windows.findElement(findWindowsObject('CheckBox'))
 
-CustomKeywords.'checkbox.selected.Selected'(element)
+println(we.isSelected())
 
-Windows.closeApplication()
 
