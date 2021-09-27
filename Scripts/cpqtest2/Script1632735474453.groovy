@@ -23,7 +23,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cpqtest-autotestuinewux.endeavorcpq.com/home')
 
-WebUI.enhancedClick(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Welcome/a_Login'), 30)
+WebUI.click(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Welcome/a_Login'), FailureHandling.CONTINUE_ON_FAILURE)
 
 //WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Welcome/a_Login'),30)
 //WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
