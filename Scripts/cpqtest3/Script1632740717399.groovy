@@ -23,13 +23,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cpqtest-autotestuinewux.endeavorcpq.com/home')
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Welcome/a_Login'), 30)
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Welcome/a_Login'), 
+    30)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
-WebUI.setText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_UserName'), 'New_member1')
+WebElement we = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_UserName'),30)
+WebUI.executeJavaScript("arguments[0].println('New Member 1')", Arrays.asList(we))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_Password'), 'nwr9I1qT+J0GbQ++JlYjHw==')
+
+
+//WebUI.setText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_UserName'), 'New_member1')
+
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_VENDAVO iCPQ AutoTest New UX - Login/input_Password'), 'nwr9I1qT+J0GbQ++JlYjHw==')
 
 WebUI.closeBrowser()
 
